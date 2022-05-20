@@ -56,7 +56,8 @@ RUN apt-get install -y --no-install-recommends \
         systemd      \
         systemd-sysv \
         cron         \
-        anacron
+        anacron      \
+        gpg
 
 RUN apt-get clean
 RUN rm -rf                        \
