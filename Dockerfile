@@ -57,7 +57,8 @@ RUN apt-get install -y --no-install-recommends \
         systemd-sysv \
         cron         \
         anacron      \
-        gpg
+        gpg          \
+        gpg-agent     
 
 RUN apt-get clean
 RUN rm -rf                        \
